@@ -9,7 +9,7 @@ Author:         bucephalus
 Maintainer:     b@bucephalus.org
 Stability:      experimental
 Homepage:       http://www.bucephalus.org/PropLogic
-Bug-reports:    http://www-bucephalus-org.blogspot.com/PropLogic-bugs
+Bug-reports:    http://www-bucephalus-org.blogspot.com/2010/02/proplogic.html
 -- Package-url:    http://www.bucephalus.org/....
 Category:       Logic, Algorithms
 Synopsis:       A system for propositional logic with default and fast instances of propositional algebras.
