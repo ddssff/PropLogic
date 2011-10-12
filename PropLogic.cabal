@@ -17,7 +17,7 @@ Synopsis:       A system for propositional logic with default and fast instances
 
 Library
   exposed-modules:
-    PropLogic, Olist, PropLogicCore, DefaultPropLogic, FastPropLogic, PropLogicTest, Main
+    PropLogic, Olist, PropLogicCore, DefaultPropLogic, FastPropLogic, PropLogicTest
   other-modules:
     TextDisplay, Costack
   build-depends:
