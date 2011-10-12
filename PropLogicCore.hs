@@ -97,7 +97,7 @@ module PropLogicCore (
 
 -- imports
 
-  import qualified List        as L
+  import qualified Data.List   as L
   import qualified TextDisplay as D
   import qualified Olist       as O
 

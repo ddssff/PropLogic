@@ -901,7 +901,7 @@ module DefaultPropLogic (
 
 -- import
 
-  import qualified List        as L
+  import qualified Data.List   as L
   import qualified Olist       as O
   import qualified TextDisplay as D
   import PropLogicCore

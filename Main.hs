@@ -8,7 +8,7 @@ module Main where
 
 -- imports
 
-  import System (getArgs)
+  import System.Environment (getArgs)
   import qualified TextDisplay as D
   import qualified Costack as C
   import PropLogic

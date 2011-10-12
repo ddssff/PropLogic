@@ -21,7 +21,7 @@ Library
   other-modules:
     TextDisplay, Costack
   build-depends:
-    base, haskell98
+    base < 5, old-time, random
   extensions:
     TypeSynonymInstances, FlexibleInstances, MultiParamTypeClasses
 

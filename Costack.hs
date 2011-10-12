@@ -11,7 +11,7 @@ module Costack (
   Costack.sort, Costack.strictSort, Costack.sorted, Costack.strictSorted,
 ) where ---------------------------------------------------------------------------------------------------------------
 
-  import qualified List as L
+  import qualified Data.List as L
 
   data Costack a = COSTACK [a]
     deriving (Show, Read, Eq)

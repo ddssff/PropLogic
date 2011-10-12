@@ -157,8 +157,8 @@ module TextDisplay (
 
 -- import
 
-  import qualified Char as Ch
-  import qualified List as L
+  import qualified Data.Char as Ch
+  import qualified Data.List as L
 
 -- basic definitions and basic functions
 

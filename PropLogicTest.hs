@@ -244,12 +244,12 @@ module PropLogicTest (
 
 ) where ---------------------------------------------------------------------------------------------------------------
 
-  import Char (chr)
-  import Ratio
-  import Random (randomIO, randomRIO)
+  import Data.Char (chr)
+  import Data.Ratio
+  import System.Random (randomIO, randomRIO)
   import Control.Monad
-  import CPUTime (getCPUTime)
-  import qualified Time  as T
+  import System.CPUTime (getCPUTime)
+  import qualified System.Time  as T
   import qualified Olist as O
   import qualified TextDisplay as D
   import qualified Costack as C

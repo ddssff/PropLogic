@@ -268,7 +268,7 @@ module FastPropLogic (
 
 -- import
 
-  import qualified List        as L
+  import qualified Data.List   as L
   import qualified TextDisplay as D
   import qualified Olist       as O
   import qualified Costack     as C
