@@ -27,3 +27,7 @@ Library
 
 Executable program
   Main-Is: Main.hs
+
+source-repository head
+  type:     darcs
+  location: http://src.seereason.com/darcs/PropLogic
