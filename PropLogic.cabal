@@ -1,5 +1,5 @@
 Name:           PropLogic
-Version:        0.9.0.2
+Version:        0.9.0.3
 Cabal-Version:  >= 1.2
 Build-type:     Simple
 License:        BSD3
@@ -17,9 +17,7 @@ Synopsis:       A system for propositional logic with default and fast instances
 
 Library
   exposed-modules:
-    PropLogic, Olist, PropLogicCore, DefaultPropLogic, FastPropLogic, PropLogicTest
-  other-modules:
-    TextDisplay, Costack
+    PropLogic, Olist, PropLogicCore, DefaultPropLogic, FastPropLogic, PropLogicTest, TextDisplay, Costack
   build-depends:
     base < 5, old-time, random
   extensions:
