@@ -19,14 +19,14 @@ Library
   exposed-modules:
     PropLogic, Olist, PropLogicCore, DefaultPropLogic, FastPropLogic, PropLogicTest, TextDisplay, Costack
   build-depends:
-    base, old-time, random
+    base < 5, old-time, random
   extensions:
     TypeSynonymInstances, FlexibleInstances, MultiParamTypeClasses
 
 Executable program
   Main-Is: Main.hs
   build-depends:
-    base, old-time, random
+    base < 5, old-time, random
 
 source-repository head
   type:     darcs
